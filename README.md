@@ -1,14 +1,15 @@
 # World Cup Database
 
-PostgreSQL database project that stores FIFA World Cup match results and demonstrates basic relational design, data loading, and querying using SQL and Bash.
+PostgreSQL-based database project modeling FIFA World Cup match results, focusing on relational schema design, data ingestion, and SQL querying using Bash and PostgreSQL.
 
 Completed as part of the FreeCodeCamp Relational Database certification.
 
-## What It Shows
+## Competencies
 
+- SQL queries and reporting
 - Relational schema with primary and foreign keys
-- Loading CSV data into PostgreSQL via Bash
-- Basic SQL queries and reporting
+- Bash scripting for CSV parsing and database interaction
+- Loading CSV data into PostgreSQL via Bash using `psql`
 
 ## Files
 
@@ -23,3 +24,4 @@ Completed as part of the FreeCodeCamp Relational Database certification.
 psql -U postgres -f worldcup.sql
 bash insert_data.sh
 bash queries.sh
+```
